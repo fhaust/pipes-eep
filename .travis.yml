@@ -1,2 +1,3 @@
+language: haskell
 script:
     - cabal configure --enable-benchmarks && cabal build && cabal bench
