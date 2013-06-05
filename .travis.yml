@@ -1,2 +1,3 @@
 language: haskell
+install: "cabal install --only-dependencies --enable-tests --enable-benchmarks"
 script: "cabal configure --enable-benchmarks && cabal build && cabal bench"
